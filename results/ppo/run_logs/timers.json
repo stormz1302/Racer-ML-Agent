@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1742826233",
+        "python_version": "3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "F:\\Unity\\Project Unity\\Racing Master\\venv\\Scripts\\mlagents-learn",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.6.0+cu118",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1742826241"
+    },
+    "total": 8.0615776,
+    "count": 1,
+    "self": 0.009285199999998994,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07528419999999958,
+            "count": 1,
+            "self": 0.07528419999999958
+        },
+        "TrainerController.start_learning": {
+            "total": 7.977008200000001,
+            "count": 1,
+            "self": 0.0007755999999998764,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.976215,
+                    "count": 1,
+                    "self": 7.976215
+                },
+                "trainer_threads": {
+                    "total": 1.6000000009341875e-06,
+                    "count": 1,
+                    "self": 1.6000000009341875e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.600000000046009e-05,
+                    "count": 1,
+                    "self": 1.600000000046009e-05
+                }
+            }
+        }
+    }
+}

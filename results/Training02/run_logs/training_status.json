@@ -1,0 +1,65 @@
+{
+    "RaceCar": {
+        "checkpoints": [
+            {
+                "steps": 27999661,
+                "file_path": "results\\Training02\\RaceCar\\RaceCar-27999661.onnx",
+                "reward": null,
+                "creation_time": 1745496503.491068,
+                "auxillary_file_paths": [
+                    "results\\Training02\\RaceCar\\RaceCar-27999661.pt"
+                ]
+            },
+            {
+                "steps": 28499560,
+                "file_path": "results\\Training02\\RaceCar\\RaceCar-28499560.onnx",
+                "reward": 1942.760024547577,
+                "creation_time": 1745498398.096098,
+                "auxillary_file_paths": [
+                    "results\\Training02\\RaceCar\\RaceCar-28499560.pt"
+                ]
+            },
+            {
+                "steps": 28999516,
+                "file_path": "results\\Training02\\RaceCar\\RaceCar-28999516.onnx",
+                "reward": null,
+                "creation_time": 1745500260.1825972,
+                "auxillary_file_paths": [
+                    "results\\Training02\\RaceCar\\RaceCar-28999516.pt"
+                ]
+            },
+            {
+                "steps": 29064749,
+                "file_path": "results\\Training02\\RaceCar\\RaceCar-29064749.onnx",
+                "reward": 10636.078744888306,
+                "creation_time": 1745500563.2569492,
+                "auxillary_file_paths": [
+                    "results\\Training02\\RaceCar\\RaceCar-29064749.pt"
+                ]
+            },
+            {
+                "steps": 29101785,
+                "file_path": "results\\Training02\\RaceCar\\RaceCar-29101785.onnx",
+                "reward": 1602.673469543457,
+                "creation_time": 1745504697.8383842,
+                "auxillary_file_paths": [
+                    "results\\Training02\\RaceCar\\RaceCar-29101785.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 29101785,
+            "file_path": "results\\Training02\\RaceCar.onnx",
+            "reward": 1602.673469543457,
+            "creation_time": 1745504697.8383842,
+            "auxillary_file_paths": [
+                "results\\Training02\\RaceCar\\RaceCar-29101785.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.6.0+cu118"
+    }
+}
